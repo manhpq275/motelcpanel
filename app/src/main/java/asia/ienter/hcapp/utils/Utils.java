@@ -1,6 +1,8 @@
 package asia.ienter.hcapp.utils;
 
 import android.app.Activity;
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
@@ -16,5 +18,17 @@ public class Utils {
         }else {
             return false;
         }
+    }
+
+    public static void setAppAuthorization(Context context,String authorization){
+        SharedPreferences.Editor editor = context.getSharedPreferences("Authorization", Context.MODE_PRIVATE).edit();
+        editor.putString("Authorization", authorization);
+        editor.commit();
+    }
+
+    public static String getAuthorization(Context context){
+        SharedPreferences prefs = context.getSharedPreferences("Authorization", Context.MODE_PRIVATE);
+        String resutl = prefs.getString("Authorization", "");
+        return resutl;
     }
 }

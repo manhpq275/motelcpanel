@@ -24,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity android:name="asia.ienter.hcapp.views.activities.HomeActivity"/>
-
+        <activity android:name="asia.ienter.hcapp.views.activities.LoginActivity"/>
     </application>
 
 </manifest>

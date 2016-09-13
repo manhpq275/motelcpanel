@@ -9,4 +9,5 @@ public class Config {
     public static final String FONTS_HOME  = "Roboto";
 
     public static final String BASE_URL = "https://abcxyz/";
+
 }

@@ -1,4 +1,4 @@
-package asia.ienter.matching.views.fragments;
+package asia.ienter.hcapp.views.fragments;
 
 import android.content.Context;
 import android.support.v4.app.Fragment;

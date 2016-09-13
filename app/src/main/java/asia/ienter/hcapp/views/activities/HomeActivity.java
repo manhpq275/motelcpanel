@@ -1,4 +1,4 @@
-package asia.ienter.matching.views.activities;
+package asia.ienter.hcapp.views.activities;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -9,12 +9,12 @@ import android.support.v4.app.FragmentManager;
 import android.view.View;
 import android.widget.LinearLayout;
 
-import asia.ienter.matching.R;
-import asia.ienter.matching.views.fragments.TopFragment;
-import asia.ienter.matching.views.fragments.MessagesFragment;
-import asia.ienter.matching.views.fragments.ProfileFragment;
-import asia.ienter.matching.utils.MLog;
-import asia.ienter.matching.utils.ReplaceFragment;
+import asia.ienter.hcapp.R;
+import asia.ienter.hcapp.views.fragments.TopFragment;
+import asia.ienter.hcapp.views.fragments.MessagesFragment;
+import asia.ienter.hcapp.views.fragments.ProfileFragment;
+import asia.ienter.hcapp.utils.MLog;
+import asia.ienter.hcapp.utils.ReplaceFragment;
 import butterknife.InjectView;
 
 /**

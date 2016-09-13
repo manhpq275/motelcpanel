@@ -1,6 +1,6 @@
-package asia.ienter.matching.apis;
+package asia.ienter.hcapp.apis;
 
-import asia.ienter.matching.utils.Config;
+import asia.ienter.hcapp.utils.Config;
 
 /**
  * Created by phamquangmanh on 9/6/16.

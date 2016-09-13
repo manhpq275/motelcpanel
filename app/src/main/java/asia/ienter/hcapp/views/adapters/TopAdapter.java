@@ -1,4 +1,4 @@
-package asia.ienter.matching.views.adapters;
+package asia.ienter.hcapp.views.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -12,9 +12,8 @@ import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
-import asia.ienter.matching.R;
-import asia.ienter.matching.models.TopView;
-import asia.ienter.matching.utils.MLog;
+import asia.ienter.hcapp.R;
+import asia.ienter.hcapp.models.TopView;
 
 /**
  * Created by phamquangmanh on 9/8/16.

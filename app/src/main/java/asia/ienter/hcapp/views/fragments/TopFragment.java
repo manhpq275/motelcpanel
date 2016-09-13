@@ -1,4 +1,4 @@
-package asia.ienter.matching.views.fragments;
+package asia.ienter.hcapp.views.fragments;
 
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,10 +13,10 @@ import android.widget.ProgressBar;
 
 import java.util.ArrayList;
 
-import asia.ienter.matching.R;
-import asia.ienter.matching.views.adapters.TopAdapter;
-import asia.ienter.matching.models.TopView;
-import asia.ienter.matching.utils.MLog;
+import asia.ienter.hcapp.R;
+import asia.ienter.hcapp.views.adapters.TopAdapter;
+import asia.ienter.hcapp.models.TopView;
+import asia.ienter.hcapp.utils.MLog;
 
 /**
  * Created by phamquangmanh on 9/6/16.

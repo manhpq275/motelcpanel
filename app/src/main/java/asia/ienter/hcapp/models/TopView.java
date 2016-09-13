@@ -1,4 +1,4 @@
-package asia.ienter.matching.models;
+package asia.ienter.hcapp.models;
 
 /**
  * Created by phamquangmanh on 9/8/16.

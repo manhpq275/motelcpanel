@@ -1,4 +1,4 @@
-package asia.ienter.matching.views.activities;
+package asia.ienter.hcapp.views.activities;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import asia.ienter.matching.R;
+import asia.ienter.hcapp.R;
 
 public class MainActivity extends AppCompatActivity {
 

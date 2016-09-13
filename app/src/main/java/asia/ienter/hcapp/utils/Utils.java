@@ -1,10 +1,8 @@
-package asia.ienter.matching.utils;
+package asia.ienter.hcapp.utils;
 
 import android.app.Activity;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-
-import asia.ienter.matching.MatchingApplication;
 
 /**
  * Created by phamquangmanh on 9/6/16.

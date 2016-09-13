@@ -1,4 +1,4 @@
-package asia.ienter.matching;
+package asia.ienter.hcapp;
 
 import android.app.Application;
 import android.content.Context;
@@ -6,17 +6,17 @@ import android.graphics.Typeface;
 
 import java.util.HashMap;
 
-import asia.ienter.matching.utils.Config;
-import asia.ienter.matching.utils.MLog;
+import asia.ienter.hcapp.utils.Config;
+import asia.ienter.hcapp.utils.MLog;
 
 /**
  * Created by phamquangmanh on 9/6/16.
  */
 
-public class MatchingApplication extends Application {
+public class HCApp extends Application {
 
-    private static MatchingApplication sInstance;
-    private static String TAG = "MatchingApplication";
+    private static HCApp sInstance;
+    private static String TAG = "HCApp";
 
     private HashMap<String, Typeface> fontMap = new HashMap<String, Typeface>();
     public static Typeface typeface;
@@ -38,7 +38,7 @@ public class MatchingApplication extends Application {
         typefaceHome = getFont(Config.FONTS_HOME);
     }
 
-    public static MatchingApplication getInstance(){
+    public static HCApp getInstance(){
         return sInstance;
     }
 

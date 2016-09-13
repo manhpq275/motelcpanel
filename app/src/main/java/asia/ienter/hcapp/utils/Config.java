@@ -1,4 +1,4 @@
-package asia.ienter.matching.utils;
+package asia.ienter.hcapp.utils;
 
 /**
  * Created by phamquangmanh on 9/6/16.

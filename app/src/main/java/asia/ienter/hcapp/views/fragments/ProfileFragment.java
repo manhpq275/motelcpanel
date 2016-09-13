@@ -1,4 +1,4 @@
-package asia.ienter.matching.views.fragments;
+package asia.ienter.hcapp.views.fragments;
 
 /**
  * Created by phamquangmanh on 9/6/16.

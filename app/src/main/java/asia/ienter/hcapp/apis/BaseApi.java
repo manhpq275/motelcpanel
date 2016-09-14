@@ -9,15 +9,10 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 public class BaseApi {
 
-    private String baseApi;
+    protected String baseApi;
     public BaseApi(String baseData){
          baseApi = Config.BASE_URL  + baseData;
     }
-
-    public String getBaseUrl(){
-        return baseApi;
-    }
-
     private Retrofit retrofit = null;
 
     public Retrofit getClient() {

@@ -18,11 +18,14 @@
         android:background="#99000000" />
 
     <LinearLayout
-        android:layout_width="@dimen/edt_username_width"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/edt_padding_left_right"
+        android:layout_marginRight="@dimen/edt_padding_left_right"
         android:gravity="center"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:id="@+id/linearLayout">
 
         <com.rey.material.widget.EditText
             android:id="@+id/edt_phone_number"
@@ -72,11 +75,23 @@
             app:et_supportTextErrorColor="@android:color/holo_red_dark" />
 
         <com.rey.material.widget.Button
-            android:id="@+id/button_bt_flat_color"
+            android:id="@+id/btn_login"
+            android:layout_marginTop="20dp"
             android:layout_width="100dp"
             android:layout_height="30dp"
             android:background="@android:color/darker_gray"
-            android:text="Submit"
+            android:text="@string/login_submit_button"
             app:v_styleId="@array/button_flat_color" />
     </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/logo_caption"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/pađing_logo"
+        android:id="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold" />
 </RelativeLayout>

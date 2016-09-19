@@ -13,7 +13,8 @@ import retrofit2.http.QueryMap;
 public class UserApi extends BaseApi {
 
     public UserApi() {
-        super("user?action=");
+        super("user/");
     }
+
 
 }

@@ -4,4 +4,6 @@
     <string name="hint_username">Username</string>
     <string name="hint_password">Password</string>
     <string name="phone_number">Phone Number</string>
+    <string name="logo_caption">Quản lý Khách Sạn</string>
+    <string name="login_submit_button">Đăng nhập</string>
 </resources>

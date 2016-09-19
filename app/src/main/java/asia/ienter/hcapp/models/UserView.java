@@ -7,32 +7,39 @@ import com.google.gson.annotations.SerializedName;
  */
 
 public class UserView {
-
-    @SerializedName("Id")
+    @SerializedName("MaNSD")
     private String Id;
 
     @SerializedName("Name")
     private String Name;
 
-    @SerializedName("UserName")
+    @SerializedName("TaiKhoan")
     private String UserName;
 
-    @SerializedName("IdPesonal")
+    @SerializedName("MaNV")
     private String IdPesonal;
 
-    public UserView(String id, String name, String userName, String idPesonal) {
+    @SerializedName("MaQH")
+    private String Permisstion;
+
+    @SerializedName("Token")
+    private String UserToken;
+
+    public UserView(String id, String name, String userName, String idPesonal, String permisstion, String userToken) {
         Id = id;
         Name = name;
         UserName = userName;
         IdPesonal = idPesonal;
+        Permisstion = permisstion;
+        UserToken = userToken;
+    }
+   
+    public String getUserToken() {
+        return UserToken;
     }
 
-    public String getIdPesonal() {
-        return IdPesonal;
-    }
-
-    public void setIdPesonal(String idPesonal) {
-        IdPesonal = idPesonal;
+    public void setUserToken(String userToken) {
+        UserToken = userToken;
     }
 
     public String getId() {
@@ -57,5 +64,21 @@ public class UserView {
 
     public void setUserName(String userName) {
         UserName = userName;
+    }
+
+    public String getIdPesonal() {
+        return IdPesonal;
+    }
+
+    public void setIdPesonal(String idPesonal) {
+        IdPesonal = idPesonal;
+    }
+
+    public String getPermisstion() {
+        return Permisstion;
+    }
+
+    public void setPermisstion(String permisstion) {
+        Permisstion = permisstion;
     }
 }
